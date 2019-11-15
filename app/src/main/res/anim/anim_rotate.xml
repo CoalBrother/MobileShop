@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="180" />
+
+<!--
+
+使用xml文件创建RotateAnimation
+
+属性说明：
+android:fromDegrees
+旋转开始角度，正数表示顺时针方向，负数表示逆时针方向。
+android:toDegrees
+旋转结束角度，正数表示顺时针方向，负数表示逆时针方向。
+android:pivotX
+旋转中心点的X坐标。有三种表示方式，
+一是纯数字，使用绝对位置（比如"50"，表示以当前View左上角坐标加50px作为X坐标）；
+二是百分数，相对于控件本身定位（比如"50%"，表示以当前View的左上角加上当前View宽度的50%作为X坐标）；
+三是百分数p，相对于父控件定位（比如"50%p"，表示以当前View的左上角加上父控件宽度的50%做为X坐标）。
+android:pivotY
+旋转中心点的Y坐标。规律同上。
+
+
+对于旋转动画要注意角度坐标
+-->

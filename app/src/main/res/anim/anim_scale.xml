@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromXScale="0"
+    android:fromYScale="0"
+    android:pivotX="10%"
+    android:pivotY="10%"
+    android:toXScale="100%"
+    android:toYScale="100%" />
+
+
+<!--
+
+使用xml文件创建ScaleAnimation
+属性说明：
+android:fromXScale：动画开始前在X坐标的大小。
+android:fromYScale：动画开始前在Y坐标的大小。
+android:toXScale：动画结束后在X坐标的大小。
+android:toYScale：动画结束后在Y坐标的大小。
+android:pivotX：缩放中心点的X坐标。
+android:pivotY：缩放中心点的Y坐标
+
+-->
+
+
+
